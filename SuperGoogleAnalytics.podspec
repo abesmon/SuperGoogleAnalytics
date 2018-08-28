@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://www.google.com/analytics'
     s.license          = { :type => 'Copyright', :text => "Copyright 2016 Google" }
     s.author           = 'Google, Inc.'
-    s.source           = { :git => 'https://github.com/abesmon/SuperGoogleAnalytics.git', :tag => :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/abesmon/SuperGoogleAnalytics.git', :tag => s.version.to_s }
     
     s.ios.deployment_target = '5.0'
     s.tvos.deployment_target = '9.0'
