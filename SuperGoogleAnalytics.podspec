@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint SuperGoogleAnalytics.podspec' to ensure this is a
+# Be sure to run `pod lib lint CTC-iOS-AdSDK.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,36 +7,54 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SuperGoogleAnalytics'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SuperGoogleAnalytics.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/Alexey Lysenko/SuperGoogleAnalytics'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Alexey Lysenko' => 'abesmon@gmail.com' }
-  s.source           = { :git => 'https://github.com/Alexey Lysenko/SuperGoogleAnalytics.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'SuperGoogleAnalytics/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SuperGoogleAnalytics' => ['SuperGoogleAnalytics/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.name             = 'SuperGoogleAnalytics'
+    s.module_name      = 'SuperGoogleAnalytics'
+    s.version          = '3.17.0'
+    s.summary          = 'Google Analytics - measure your app performance'
+    
+    s.description      = "Google Analytics lets you track application events you care about and gain insights from discovery and installation to conversion and engagement."
+    
+    s.homepage         = 'https://www.google.com/analytics'
+    s.license          = { :type => 'Copyright', :text => "Copyright 2016 Google" }
+    s.author           = 'Google, Inc.'
+    s.source           = { :http => 'https://www.gstatic.com/cpdc/5cd71dd2f756bb01/GoogleAnalytics-3.17.0.tar.gz' }
+    
+    s.ios.deployment_target = '5.0'
+    s.tvos.deployment_target = '9.0'
+    
+    s.vendored_libraries = "Libraries/libGoogleAnalytics.a"
+    
+    s.source_files = [
+    "Sources/GAI.h",
+    "Sources/GAIDictionaryBuilder.h",
+    "Sources/GAIEcommerceFields.h",
+    "Sources/GAIEcommerceProduct.h",
+    "Sources/GAIEcommerceProductAction.h",
+    "Sources/GAIEcommercePromotion.h",
+    "Sources/GAIFields.h",
+    "Sources/GAILogger.h",
+    "Sources/GAITrackedViewController.h",
+    "Sources/GAITracker.h",
+    "Sources/dummy.m"
+    ]
+    s.public_header_files = [
+    "Sources/GAI.h",
+    "Sources/GAIDictionaryBuilder.h",
+    "Sources/GAIEcommerceFields.h",
+    "Sources/GAIEcommerceProduct.h",
+    "Sources/GAIEcommerceProductAction.h",
+    "Sources/GAIEcommercePromotion.h",
+    "Sources/GAIFields.h",
+    "Sources/GAILogger.h",
+    "Sources/GAITrackedViewController.h",
+    "Sources/GAITracker.h"
+    ]
+    
+    s.pod_target_xcconfig = {
+        'OTHER_LDFLAGS' => '-ObjC',
+        'ENABLE_BITCODE' => 'NO'
+    }
+    
+    s.frameworks =["CoreData", "SystemConfiguration"]
+    s.libraries = ["z", "sqlite3"]
 end

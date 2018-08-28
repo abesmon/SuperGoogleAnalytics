@@ -7,137 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		B61BB5758325C6DDA401BABD /* Pods_SuperGoogleAnalytics_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF496A9A82AAF7FE288F543C /* Pods_SuperGoogleAnalytics_Tests.framework */; };
-		F2DC9CB45DE1604A0FDF3934 /* Pods_SuperGoogleAnalytics_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C20E0C55E828F355CD0FB0 /* Pods_SuperGoogleAnalytics_Example.framework */; };
+		510B41727B188D4989AB4625 /* Pods_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C97D54637444469C6BD99B9 /* Pods_iOS_Example.framework */; };
+		A04BAD4121355526008279CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04BAD4021355526008279CE /* AppDelegate.swift */; };
+		A04BAD4321355526008279CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04BAD4221355526008279CE /* ViewController.swift */; };
+		A04BAD4621355526008279CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04BAD4421355526008279CE /* Main.storyboard */; };
+		A04BAD4821355527008279CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04BAD4721355527008279CE /* Assets.xcassets */; };
+		A04BAD5421355827008279CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04BAD5321355827008279CE /* AppDelegate.swift */; };
+		A04BAD5621355827008279CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04BAD5521355827008279CE /* ViewController.swift */; };
+		A04BAD5921355827008279CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04BAD5721355827008279CE /* Main.storyboard */; };
+		A04BAD5B21355828008279CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04BAD5A21355828008279CE /* Assets.xcassets */; };
+		A04BAD5E21355828008279CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04BAD5C21355828008279CE /* LaunchScreen.storyboard */; };
+		AE38066E151CB95FE263FA4E /* Pods_TVOs_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5913FAD73FDA95A1F88E24B7 /* Pods_TVOs_Example.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = SuperGoogleAnalytics;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		178DC7B79DE28697FA24AD2F /* SuperGoogleAnalytics.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SuperGoogleAnalytics.podspec; path = ../SuperGoogleAnalytics.podspec; sourceTree = "<group>"; };
-		1CB38910B83F828B76B4C8DA /* Pods-SuperGoogleAnalytics_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperGoogleAnalytics_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperGoogleAnalytics_Example/Pods-SuperGoogleAnalytics_Example.release.xcconfig"; sourceTree = "<group>"; };
-		50BA974D33F7B53998750973 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		51C291924D0940D8B1EA354A /* Pods-SuperGoogleAnalytics_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperGoogleAnalytics_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperGoogleAnalytics_Tests/Pods-SuperGoogleAnalytics_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		56C20E0C55E828F355CD0FB0 /* Pods_SuperGoogleAnalytics_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperGoogleAnalytics_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD01AFB9204008FA782 /* SuperGoogleAnalytics_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperGoogleAnalytics_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* SuperGoogleAnalytics_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperGoogleAnalytics_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6A572FD73B0E64581D6F2D10 /* Pods-SuperGoogleAnalytics_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperGoogleAnalytics_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperGoogleAnalytics_Example/Pods-SuperGoogleAnalytics_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D719FF7B00750659B47C144 /* Pods-SuperGoogleAnalytics_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperGoogleAnalytics_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperGoogleAnalytics_Tests/Pods-SuperGoogleAnalytics_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C48589F677BCD48041755F8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CF496A9A82AAF7FE288F543C /* Pods_SuperGoogleAnalytics_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperGoogleAnalytics_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F0FB45491FF6D18662E8D1A /* Pods-SuperGoogleAnalytics_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperGoogleAnalytics_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperGoogleAnalytics_Tests/Pods-SuperGoogleAnalytics_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		178DC7B79DE28697FA24AD2F /* SuperGoogleAnalytics.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SuperGoogleAnalytics.podspec; path = ../SuperGoogleAnalytics.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2C8177390CFA943D3BEEF0D4 /* Pods-TVOs Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOs Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVOs Example/Pods-TVOs Example.debug.xcconfig"; sourceTree = "<group>"; };
+		373393D0FCDD9933DB4E7B42 /* Pods-iOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Example/Pods-iOS Example.release.xcconfig"; sourceTree = "<group>"; };
+		3779ACA687E7BA4B9FF35305 /* Pods-SuperGoogleAnalytics_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperGoogleAnalytics_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperGoogleAnalytics_Example/Pods-SuperGoogleAnalytics_Example.release.xcconfig"; sourceTree = "<group>"; };
+		395A7642B526D0791F022826 /* Pods-TVOs Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOs Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TVOs Example/Pods-TVOs Example.release.xcconfig"; sourceTree = "<group>"; };
+		3F37ED7033640DE51DD86AA4 /* Pods_SuperGoogleAnalytics_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperGoogleAnalytics_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C97D54637444469C6BD99B9 /* Pods_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50BA974D33F7B53998750973 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5913FAD73FDA95A1F88E24B7 /* Pods_TVOs_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVOs_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		763BC965BCEB56452ECA8790 /* Pods-iOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Example/Pods-iOS Example.debug.xcconfig"; sourceTree = "<group>"; };
+		89BB1D470BB2902C5BF25270 /* Pods-SuperGoogleAnalytics_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperGoogleAnalytics_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperGoogleAnalytics_Example/Pods-SuperGoogleAnalytics_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A04BAD3E21355526008279CE /* TVOs Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TVOs Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04BAD4021355526008279CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A04BAD4221355526008279CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A04BAD4521355526008279CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A04BAD4721355527008279CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A04BAD4921355527008279CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A04BAD5121355827008279CE /* iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04BAD5321355827008279CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A04BAD5521355827008279CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A04BAD5821355827008279CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A04BAD5A21355828008279CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A04BAD5D21355828008279CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A04BAD5F21355828008279CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6E747ADA5B7D38886088BAE /* Pods_SuperGoogleAnalytics_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperGoogleAnalytics_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3AC5B1F280396BFC6611398 /* Pods-SuperGoogleAnalytics_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperGoogleAnalytics_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperGoogleAnalytics_Tests/Pods-SuperGoogleAnalytics_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C48589F677BCD48041755F8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		607FACCD1AFB9204008FA782 /* Frameworks */ = {
+		A04BAD3B21355526008279CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2DC9CB45DE1604A0FDF3934 /* Pods_SuperGoogleAnalytics_Example.framework in Frameworks */,
+				AE38066E151CB95FE263FA4E /* Pods_TVOs_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
+		A04BAD4E21355827008279CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B61BB5758325C6DDA401BABD /* Pods_SuperGoogleAnalytics_Tests.framework in Frameworks */,
+				510B41727B188D4989AB4625 /* Pods_iOS_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		40F7B232D4BB544844FE84C7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6A572FD73B0E64581D6F2D10 /* Pods-SuperGoogleAnalytics_Example.debug.xcconfig */,
-				1CB38910B83F828B76B4C8DA /* Pods-SuperGoogleAnalytics_Example.release.xcconfig */,
-				9D719FF7B00750659B47C144 /* Pods-SuperGoogleAnalytics_Tests.debug.xcconfig */,
-				51C291924D0940D8B1EA354A /* Pods-SuperGoogleAnalytics_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for SuperGoogleAnalytics */,
-				607FACE81AFB9204008FA782 /* Tests */,
+				A04BAD3F21355526008279CE /* TVOs Example */,
+				A04BAD5221355827008279CE /* iOS Example */,
 				607FACD11AFB9204008FA782 /* Products */,
-				40F7B232D4BB544844FE84C7 /* Pods */,
-				740B6CFBFCCB7C9EF0A48E2C /* Frameworks */,
+				C65D025FB27CF2A960D81CFB /* Pods */,
+				AD9B91FE7C10BDD9EA3A6BA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* SuperGoogleAnalytics_Example.app */,
-				607FACE51AFB9204008FA782 /* SuperGoogleAnalytics_Tests.xctest */,
+				A04BAD3E21355526008279CE /* TVOs Example.app */,
+				A04BAD5121355827008279CE /* iOS Example.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		607FACD21AFB9204008FA782 /* Example for SuperGoogleAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
-				607FACD31AFB9204008FA782 /* Supporting Files */,
-			);
-			name = "Example for SuperGoogleAnalytics";
-			path = SuperGoogleAnalytics;
-			sourceTree = "<group>";
-		};
-		607FACD31AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACD41AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
@@ -150,55 +102,97 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		740B6CFBFCCB7C9EF0A48E2C /* Frameworks */ = {
+		A04BAD3F21355526008279CE /* TVOs Example */ = {
 			isa = PBXGroup;
 			children = (
-				56C20E0C55E828F355CD0FB0 /* Pods_SuperGoogleAnalytics_Example.framework */,
-				CF496A9A82AAF7FE288F543C /* Pods_SuperGoogleAnalytics_Tests.framework */,
+				A04BAD4021355526008279CE /* AppDelegate.swift */,
+				A04BAD4221355526008279CE /* ViewController.swift */,
+				A04BAD4421355526008279CE /* Main.storyboard */,
+				A04BAD4721355527008279CE /* Assets.xcassets */,
+				A04BAD4921355527008279CE /* Info.plist */,
+			);
+			path = "TVOs Example";
+			sourceTree = "<group>";
+		};
+		A04BAD5221355827008279CE /* iOS Example */ = {
+			isa = PBXGroup;
+			children = (
+				A04BAD5321355827008279CE /* AppDelegate.swift */,
+				A04BAD5521355827008279CE /* ViewController.swift */,
+				A04BAD5721355827008279CE /* Main.storyboard */,
+				A04BAD5A21355828008279CE /* Assets.xcassets */,
+				A04BAD5C21355828008279CE /* LaunchScreen.storyboard */,
+				A04BAD5F21355828008279CE /* Info.plist */,
+			);
+			path = "iOS Example";
+			sourceTree = "<group>";
+		};
+		AD9B91FE7C10BDD9EA3A6BA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F37ED7033640DE51DD86AA4 /* Pods_SuperGoogleAnalytics_Example.framework */,
+				A6E747ADA5B7D38886088BAE /* Pods_SuperGoogleAnalytics_Tests.framework */,
+				5913FAD73FDA95A1F88E24B7 /* Pods_TVOs_Example.framework */,
+				4C97D54637444469C6BD99B9 /* Pods_iOS_Example.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C65D025FB27CF2A960D81CFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89BB1D470BB2902C5BF25270 /* Pods-SuperGoogleAnalytics_Example.debug.xcconfig */,
+				3779ACA687E7BA4B9FF35305 /* Pods-SuperGoogleAnalytics_Example.release.xcconfig */,
+				B3AC5B1F280396BFC6611398 /* Pods-SuperGoogleAnalytics_Tests.debug.xcconfig */,
+				0F0FB45491FF6D18662E8D1A /* Pods-SuperGoogleAnalytics_Tests.release.xcconfig */,
+				2C8177390CFA943D3BEEF0D4 /* Pods-TVOs Example.debug.xcconfig */,
+				395A7642B526D0791F022826 /* Pods-TVOs Example.release.xcconfig */,
+				763BC965BCEB56452ECA8790 /* Pods-iOS Example.debug.xcconfig */,
+				373393D0FCDD9933DB4E7B42 /* Pods-iOS Example.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* SuperGoogleAnalytics_Example */ = {
+		A04BAD3D21355526008279CE /* TVOs Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SuperGoogleAnalytics_Example" */;
+			buildConfigurationList = A04BAD4C21355527008279CE /* Build configuration list for PBXNativeTarget "TVOs Example" */;
 			buildPhases = (
-				6B8A33AD461BCBF130B37308 /* [CP] Check Pods Manifest.lock */,
-				607FACCC1AFB9204008FA782 /* Sources */,
-				607FACCD1AFB9204008FA782 /* Frameworks */,
-				607FACCE1AFB9204008FA782 /* Resources */,
-				6A3B23FAED5A27AB5793CAEB /* [CP] Embed Pods Frameworks */,
+				4409DABDDD9D618A6242D4E2 /* [CP] Check Pods Manifest.lock */,
+				A04BAD3A21355526008279CE /* Sources */,
+				A04BAD3B21355526008279CE /* Frameworks */,
+				A04BAD3C21355526008279CE /* Resources */,
+				CF4EF3BEC84E337AC5BADE9A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SuperGoogleAnalytics_Example;
-			productName = SuperGoogleAnalytics;
-			productReference = 607FACD01AFB9204008FA782 /* SuperGoogleAnalytics_Example.app */;
+			name = "TVOs Example";
+			productName = "TVOs Example";
+			productReference = A04BAD3E21355526008279CE /* TVOs Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* SuperGoogleAnalytics_Tests */ = {
+		A04BAD5021355827008279CE /* iOS Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SuperGoogleAnalytics_Tests" */;
+			buildConfigurationList = A04BAD6221355828008279CE /* Build configuration list for PBXNativeTarget "iOS Example" */;
 			buildPhases = (
-				3D5BCCA9826B5C2972B0134D /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
+				C04803584E65400A1A959808 /* [CP] Check Pods Manifest.lock */,
+				A04BAD4D21355827008279CE /* Sources */,
+				A04BAD4E21355827008279CE /* Frameworks */,
+				A04BAD4F21355827008279CE /* Resources */,
+				EC824BC94B1AC2221ABB87AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = SuperGoogleAnalytics_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* SuperGoogleAnalytics_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = "iOS Example";
+			productName = "iOS Example";
+			productReference = A04BAD5121355827008279CE /* iOS Example.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -206,18 +200,19 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+					A04BAD3D21355526008279CE = {
+						CreatedOnToolsVersion = 9.4.1;
+						DevelopmentTeam = 3GZ79KZE43;
+						ProvisioningStyle = Automatic;
 					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
+					A04BAD5021355827008279CE = {
+						CreatedOnToolsVersion = 9.4.1;
+						DevelopmentTeam = 3GZ79KZE43;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -234,34 +229,36 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* SuperGoogleAnalytics_Example */,
-				607FACE41AFB9204008FA782 /* SuperGoogleAnalytics_Tests */,
+				A04BAD3D21355526008279CE /* TVOs Example */,
+				A04BAD5021355827008279CE /* iOS Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		607FACCE1AFB9204008FA782 /* Resources */ = {
+		A04BAD3C21355526008279CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				A04BAD4821355527008279CE /* Assets.xcassets in Resources */,
+				A04BAD4621355526008279CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
+		A04BAD4F21355827008279CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04BAD5E21355828008279CE /* LaunchScreen.storyboard in Resources */,
+				A04BAD5B21355828008279CE /* Assets.xcassets in Resources */,
+				A04BAD5921355827008279CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3D5BCCA9826B5C2972B0134D /* [CP] Check Pods Manifest.lock */ = {
+		4409DABDDD9D618A6242D4E2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,21 +269,39 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SuperGoogleAnalytics_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TVOs Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6A3B23FAED5A27AB5793CAEB /* [CP] Embed Pods Frameworks */ = {
+		C04803584E65400A1A959808 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SuperGoogleAnalytics_Example/Pods-SuperGoogleAnalytics_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SuperGoogleAnalytics/SuperGoogleAnalytics.framework",
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF4EF3BEC84E337AC5BADE9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TVOs Example/Pods-TVOs Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SuperGoogleAnalytics-tvOS/SuperGoogleAnalytics.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -294,72 +309,73 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperGoogleAnalytics_Example/Pods-SuperGoogleAnalytics_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TVOs Example/Pods-TVOs Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6B8A33AD461BCBF130B37308 /* [CP] Check Pods Manifest.lock */ = {
+		EC824BC94B1AC2221ABB87AD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOS Example/Pods-iOS Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SuperGoogleAnalytics-iOS/SuperGoogleAnalytics.framework",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SuperGoogleAnalytics_Example-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SuperGoogleAnalytics.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Example/Pods-iOS Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		607FACCC1AFB9204008FA782 /* Sources */ = {
+		A04BAD3A21355526008279CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				A04BAD4321355526008279CE /* ViewController.swift in Sources */,
+				A04BAD4121355526008279CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
+		A04BAD4D21355827008279CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				A04BAD5621355827008279CE /* ViewController.swift in Sources */,
+				A04BAD5421355827008279CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* SuperGoogleAnalytics_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+		A04BAD4421355526008279CE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
+				A04BAD4521355526008279CE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+		A04BAD5721355827008279CE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
+				A04BAD5821355827008279CE /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A04BAD5C21355828008279CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A04BAD5D21355828008279CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -464,73 +480,117 @@
 			};
 			name = Release;
 		};
-		607FACF01AFB9204008FA782 /* Debug */ = {
+		A04BAD4A21355527008279CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A572FD73B0E64581D6F2D10 /* Pods-SuperGoogleAnalytics_Example.debug.xcconfig */;
+			baseConfigurationReference = 2C8177390CFA943D3BEEF0D4 /* Pods-TVOs Example.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SuperGoogleAnalytics/Info.plist;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3GZ79KZE43;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "TVOs Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTC.TVOs-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
 			};
 			name = Debug;
 		};
-		607FACF11AFB9204008FA782 /* Release */ = {
+		A04BAD4B21355527008279CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CB38910B83F828B76B4C8DA /* Pods-SuperGoogleAnalytics_Example.release.xcconfig */;
+			baseConfigurationReference = 395A7642B526D0791F022826 /* Pods-TVOs Example.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SuperGoogleAnalytics/Info.plist;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GZ79KZE43;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "TVOs Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTC.TVOs-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SDKROOT = appletvos;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
 			};
 			name = Release;
 		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
+		A04BAD6021355828008279CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D719FF7B00750659B47C144 /* Pods-SuperGoogleAnalytics_Tests.debug.xcconfig */;
+			baseConfigurationReference = 763BC965BCEB56452ECA8790 /* Pods-iOS Example.debug.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3GZ79KZE43;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "iOS Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTC.iOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperGoogleAnalytics_Example.app/SuperGoogleAnalytics_Example";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		607FACF41AFB9204008FA782 /* Release */ = {
+		A04BAD6121355828008279CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51C291924D0940D8B1EA354A /* Pods-SuperGoogleAnalytics_Tests.release.xcconfig */;
+			baseConfigurationReference = 373393D0FCDD9933DB4E7B42 /* Pods-iOS Example.release.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GZ79KZE43;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "iOS Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTC.iOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperGoogleAnalytics_Example.app/SuperGoogleAnalytics_Example";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -546,20 +606,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SuperGoogleAnalytics_Example" */ = {
+		A04BAD4C21355527008279CE /* Build configuration list for PBXNativeTarget "TVOs Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				607FACF01AFB9204008FA782 /* Debug */,
-				607FACF11AFB9204008FA782 /* Release */,
+				A04BAD4A21355527008279CE /* Debug */,
+				A04BAD4B21355527008279CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SuperGoogleAnalytics_Tests" */ = {
+		A04BAD6221355828008279CE /* Build configuration list for PBXNativeTarget "iOS Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
+				A04BAD6021355828008279CE /* Debug */,
+				A04BAD6121355828008279CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

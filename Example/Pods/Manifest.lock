@@ -1,0 +1,16 @@
+PODS:
+  - SuperGoogleAnalytics (3.17.0)
+
+DEPENDENCIES:
+  - SuperGoogleAnalytics (from `../`)
+
+EXTERNAL SOURCES:
+  SuperGoogleAnalytics:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SuperGoogleAnalytics: 7c72cc544bc22464d711d842429b24ac94a6f3f6
+
+PODFILE CHECKSUM: f2c546d4cf5d158d402693869b44c3c43ec48efa
+
+COCOAPODS: 1.5.3

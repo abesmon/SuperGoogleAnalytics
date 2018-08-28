@@ -1,0 +1,6 @@
+framework module SuperGoogleAnalytics {
+  umbrella header "SuperGoogleAnalytics-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

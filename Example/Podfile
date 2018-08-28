@@ -1,11 +1,9 @@
 use_frameworks!
 
-target 'SuperGoogleAnalytics_Example' do
+target 'TVOs Example' do
   pod 'SuperGoogleAnalytics', :path => '../'
+end
 
-  target 'SuperGoogleAnalytics_Tests' do
-    inherit! :search_paths
-
-    
-  end
+target 'iOS Example' do
+    pod 'SuperGoogleAnalytics', :path => '../'
 end
